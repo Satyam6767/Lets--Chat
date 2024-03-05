@@ -19,7 +19,7 @@ const Chatpage = () => {
         textAlign="center"
         w="100%"
         h="100%"
-        p="10"
+        p="3"
           >
         {user && <MyChats fetchAgain={fetchAgain} />}
         {user && (

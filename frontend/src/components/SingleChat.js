@@ -200,7 +200,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             d="flex"
             flexDir="column"
             justifyContent="flex-end"
-            p={3}
+            p={1}
             bg="#E8E8E8"
             w="100%"
             h="100%"
