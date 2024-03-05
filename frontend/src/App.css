@@ -3,7 +3,8 @@
 .App {
   min-height: 100vh;
   display: flex;
-  background-image: url("./bg.jpg");
+  background-color: #222a35;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-position: center;
   background-size: cover;
 }
@@ -13,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(136, 136, 136, 0.281);
+  background: #575c66;
 }
 
 /* Handle on hover */

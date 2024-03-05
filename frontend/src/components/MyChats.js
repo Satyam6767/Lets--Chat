@@ -50,9 +50,10 @@ const MyChats = ({ fetchAgain }) => {
       d={{ base: selectedChat ? "none" : "flex", md: "flex" }}
       flexDir="column"
       alignItems="center"
-      p={3}
+      p={10}
       bg="white"
-      w={{ base: "100%", md: "31%" }}
+      // w={{ base: "100%", md: "31%" }}
+      // w = "100vw"
       borderRadius="lg"
       borderWidth="1px"
     >

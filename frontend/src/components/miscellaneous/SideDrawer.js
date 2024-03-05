@@ -123,13 +123,14 @@ function SideDrawer() {
   };
 
   return (
-    <>
+    <div>
       <Box
         d="flex"
         justifyContent="space-between"
+        textAlign="center"
         alignItems="center"
-        bg="white"
-        w="100%"
+        bg="skyblue"
+        w="100vw"
         p="5px 10px 5px 10px"
         borderWidth="5px"
       >
@@ -141,11 +142,10 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
-          Talk-A-Tive
-        </Text>
-        <div>
-          <Menu>
+
+      
+        
+          <Menu d="flex" justifyContent="flex-end">
             <MenuButton p={1}>
               <NotificationBadge
                 count={notification.length}
@@ -187,7 +187,7 @@ function SideDrawer() {
               <MenuItem onClick={logoutHandler}>Logout</MenuItem>
             </MenuList>
           </Menu>
-        </div>
+        
       </Box>
 
       <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
@@ -219,7 +219,7 @@ function SideDrawer() {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-    </>
+    </div>
   );
 }
 
